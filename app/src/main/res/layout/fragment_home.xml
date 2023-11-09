@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".home">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pertahankan Berat Badan Ideal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/h" />
+
+    <Button
+        android:id="@+id/button_ideal"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="285dp"
+        android:text="Tips Pertahankan Berat Badan"
+        android:textColor="#1E90FF"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="center"/>
+
+
+</FrameLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".kelebihan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bahaya Kelebihan Berat Badan"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textSize="32dp"
+        android:textAlignment="center"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Mudah Lelah"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Tubuh merasa lelah karena melakukan banyak aktivitas merupakan hal yang wajar namun kalau kamu mudah lelah padahal tidak banyak beraktivitas tandanya kamu kelebihan berat badan"
+        android:textColor="@color/white"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/b1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Sering Badmood"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Salah satu tanda kamu Kelebihan berat badan adalah munculnya perubahan suasana yang siginifikan"
+        android:textColor="@color/white"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/b2" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="-30dp"
+        android:src="@drawable/b3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Susah Buang Air Besar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="135dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Ditandai dengan tinja yang keras,rasa mengganjal dianus,perut terasa penuh atau kembung d,dan jadwal buang air besar tidak teratur"
+        android:textColor="@color/white"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/button_bahaya"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="275dp"
+        android:text="Lihat Body Mass Index Kamu"
+        android:textColor="#1E90FF"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+</FrameLayout>

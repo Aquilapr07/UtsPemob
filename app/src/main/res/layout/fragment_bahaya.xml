@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".bahaya">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bahaya Kekurangan Berat Badan"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.kekurangan nutrisi"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="seseorang bisa mengalami kekurangan nutrisi.Kondisi ini akan menyebabkan terjadinya gangguan fungsi tubuh, serta kerusakan jaringan dan organ tubuh."
+        android:textColor="@color/white"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/g1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Rentan sakit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Saat tubuh terlalu kurus akibat kurangnya asupan nutrisi, maka sistem imun juga tidak bisa bekerja dengan optimal dalam melindungi tubuh."
+        android:textColor="@color/white"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/g2" />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="-30dp"
+        android:src="@drawable/g3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.risiko osteoporosis"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="135dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Kondisi ini disebabkan oleh kurangnya asupan nutrisi dan berhubungan erat dengan kurangnya asupan kalsium dan vitamin D."
+        android:textColor="@color/white"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/button_bahaya"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="275dp"
+        android:text="Lihat Body Mass Index Kamu"
+        android:textColor="#1E90FF"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="center"/>
+
+
+
+</FrameLayout>

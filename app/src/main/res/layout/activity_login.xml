@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E90FF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IdealFitGuard"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/y"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#38ffffff"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:padding="28dp"
+        android:drawablePadding="20dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/etPaswword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#38ffffff"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:padding="28dp"
+        android:drawablePadding="20dp"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="#1E90FF"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        android:backgroundTint="@color/white"
+        android:onClick="onLoginButtonClick"
+        android:drawableLeft="@drawable/baseline_person_24"
+        tools:ignore="OnClick"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:padding="15dp"
+        android:textSize="15dp"
+        android:textColor="#1E90FF"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="-60dp"
+        android:layout_marginLeft="225dp"
+        android:onClick="Registration"
+        tools:ignore="OnClick"
+        android:drawableLeft="@drawable/regis"/>
+
+    <TextView
+        android:id="@+id/forgotpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:onClick="onTextViewClick"
+        tools:ignore="OnClick"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
+

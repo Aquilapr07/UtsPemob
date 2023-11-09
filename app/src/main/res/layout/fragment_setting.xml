@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg1"
+    tools:context=".setting">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/profile"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/lin"
+        android:padding="28dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aquila Putra Riyanto"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_person_4_24"
+            android:textColor="#1E90FF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:background="@drawable/bulat"
+            android:layout_marginTop="-3dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="152021069"
+            android:textSize="20dp"
+            android:textColor="#1E90FF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:background="@drawable/bulat"
+            android:drawableLeft="@drawable/baseline_confirmation_number_24"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aquila.putra@mhs.itenas.ac.id"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:textColor="#1E90FF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:background="@drawable/bulat"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0859106953807"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_local_phone_24"
+            android:textColor="#1E90FF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:background="@drawable/bulat"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textColor="#1E90FF"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="115dp"
+        tools:ignore="OnClick"
+        android:onClick="logout"
+        android:drawableLeft="@drawable/baseline_save_24"/>
+
+</FrameLayout>
